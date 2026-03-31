@@ -108,6 +108,11 @@ Buka di browser:
 http://127.0.0.1:8000
 ```
 
+Atau:
+
+```
+http://localhost:8000
+```
 ---
 
 ## ⚠️ Catatan Penting
