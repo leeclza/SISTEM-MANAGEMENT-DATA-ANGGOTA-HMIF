@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>taitel</title>
+    <title>Judul disini</title>
     @vite(['resources/css/app.css', 'resources/js/app.jsx'])
 </head>
 <body>
