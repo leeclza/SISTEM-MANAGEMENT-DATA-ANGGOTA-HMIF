@@ -16,7 +16,7 @@ Website ini dirancang untuk membantu pengurus HMIF dalam mengelola data anggota 
 - **Laravel** (Backend)
 - **React + Vite** (Frontend)
 - **TailwindCSS** (Styling)
-- **FIGMA** (UI/UX)
+- **Figma** (UI/UX)
 - **Coming Soon** (Database)
 
 ---
