@@ -2,15 +2,19 @@ import './bootstrap';
 import "../css/app.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
 
 function App() {
     return (
-        <MainLayout>
-            <h1 className="bg-red-500 text-white p-4">
-                home page berhasil
-            </h1>
-        </MainLayout>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<MainLayout><Home /></MainLayout>} />
+                <Route path="/login" element={<MainLayout><Login /></MainLayout>} />
+            </Routes>
+        </BrowserRouter>
     );
 }
 
