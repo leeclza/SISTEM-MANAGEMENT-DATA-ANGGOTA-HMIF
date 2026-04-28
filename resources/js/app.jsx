@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainLayout from "./layout/MainLayout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import AuthCallback from "./pages/AuthCallback";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<MainLayout><Home /></MainLayout>} />
                 <Route path="/login" element={<MainLayout><Login /></MainLayout>} />
+                <Route path="/auth/callback" element={<AuthCallback />} />
             </Routes>
         </BrowserRouter>
     );

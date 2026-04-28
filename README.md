@@ -17,7 +17,7 @@ Website ini dirancang untuk membantu pengurus HMIF dalam mengelola data anggota 
 - **React + Vite** (Frontend)
 - **TailwindCSS** (Styling)
 - **Figma** (UI/UX)
-- **Coming Soon** (Database)
+- **PostgreSQL** (Database)
 
 ---
 
